@@ -1,0 +1,618 @@
+[2023-11-28T18:52:06.167-0300] {processor.py:157} INFO - Started process (PID=144576) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:52:06.168-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:52:06.169-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:52:06.169-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:52:06.175-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:52:06.173-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.operators.papermill_operator import PapermillOperator
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.papermill.operators.papermill.PapermillOperator` while trying to import `airflow.operators.papermill_operator.PapermillOperator`.
+[2023-11-28T18:52:06.175-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:52:06.199-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.036 seconds
+[2023-11-28T18:52:56.708-0300] {processor.py:157} INFO - Started process (PID=144680) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:52:56.713-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:52:56.714-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:52:56.714-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:52:56.720-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:52:56.718-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.operators.papermill_operator import PapermillOperator
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.papermill.operators.papermill.PapermillOperator` while trying to import `airflow.operators.papermill_operator.PapermillOperator`.
+[2023-11-28T18:52:56.721-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:52:56.741-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.037 seconds
+[2023-11-28T18:53:32.876-0300] {processor.py:157} INFO - Started process (PID=144733) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:53:32.880-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:53:32.882-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:53:32.881-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:53:32.888-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:53:32.886-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.operators.papermill_operator import PapermillOperator
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.papermill.operators.papermill.PapermillOperator` while trying to import `airflow.operators.papermill_operator.PapermillOperator`.
+[2023-11-28T18:53:32.890-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:53:32.912-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.041 seconds
+[2023-11-28T18:54:09.073-0300] {processor.py:157} INFO - Started process (PID=144954) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:54:09.074-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:54:09.074-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:54:09.074-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:54:09.078-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:54:09.077-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.operators.papermill_operator import PapermillOperator
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.papermill.operators.papermill.PapermillOperator` while trying to import `airflow.operators.papermill_operator.PapermillOperator`.
+[2023-11-28T18:54:09.078-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:54:09.098-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.028 seconds
+[2023-11-28T18:54:51.212-0300] {processor.py:157} INFO - Started process (PID=145304) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:54:51.217-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:54:51.218-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:54:51.217-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:54:51.224-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:54:51.222-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.operators.papermill_operator import PapermillOperator
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.papermill.operators.papermill.PapermillOperator` while trying to import `airflow.operators.papermill_operator.PapermillOperator`.
+[2023-11-28T18:54:51.224-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:54:51.247-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.041 seconds
+[2023-11-28T18:55:13.247-0300] {processor.py:157} INFO - Started process (PID=145355) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:55:13.249-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:55:13.250-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:55:13.250-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:55:13.257-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:55:13.256-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.operators import PapermillOperator
+ImportError: cannot import name 'PapermillOperator' from 'airflow.operators' (/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/operators/__init__.py)
+[2023-11-28T18:55:13.258-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:55:13.323-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.081 seconds
+[2023-11-28T18:55:53.670-0300] {processor.py:157} INFO - Started process (PID=145409) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:55:53.670-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:55:53.671-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:55:53.671-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:55:53.674-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:55:53.673-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.operators import PapermillOperator
+ImportError: cannot import name 'PapermillOperator' from 'airflow.operators' (/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/operators/__init__.py)
+[2023-11-28T18:55:53.674-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:55:53.692-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.025 seconds
+[2023-11-28T18:56:30.983-0300] {processor.py:157} INFO - Started process (PID=145476) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:56:30.988-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:56:30.990-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:56:30.989-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:56:30.997-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:56:30.995-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.operators import PapermillOperator
+ImportError: cannot import name 'PapermillOperator' from 'airflow.operators' (/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/operators/__init__.py)
+[2023-11-28T18:56:30.998-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:56:31.025-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.048 seconds
+[2023-11-28T18:57:07.825-0300] {processor.py:157} INFO - Started process (PID=145562) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:57:07.829-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:57:07.830-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:57:07.830-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:57:07.835-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:57:07.834-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.operators import PapermillOperator
+ImportError: cannot import name 'PapermillOperator' from 'airflow.operators' (/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/operators/__init__.py)
+[2023-11-28T18:57:07.835-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:57:07.857-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.036 seconds
+[2023-11-28T18:57:24.715-0300] {processor.py:157} INFO - Started process (PID=145602) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:57:24.716-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:57:24.718-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:57:24.717-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:57:24.724-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:57:24.723-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T18:57:24.724-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:57:24.741-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.029 seconds
+[2023-11-28T18:58:02.079-0300] {processor.py:157} INFO - Started process (PID=145663) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:58:02.083-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:58:02.084-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:58:02.084-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:58:02.087-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:58:02.086-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T18:58:02.087-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:58:02.103-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.027 seconds
+[2023-11-28T18:58:38.728-0300] {processor.py:157} INFO - Started process (PID=145714) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:58:38.729-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:58:38.729-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:58:38.729-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:58:38.732-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:58:38.732-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T18:58:38.733-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:58:38.749-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.024 seconds
+[2023-11-28T18:59:19.400-0300] {processor.py:157} INFO - Started process (PID=145771) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:59:19.405-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:59:19.407-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:59:19.406-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:59:19.414-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:59:19.412-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T18:59:19.415-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:59:19.441-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.047 seconds
+[2023-11-28T18:59:40.126-0300] {processor.py:157} INFO - Started process (PID=145817) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:59:40.128-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T18:59:40.130-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:59:40.129-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:59:40.138-0300] {logging_mixin.py:154} INFO - [2023-11-28T18:59:40.137-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T18:59:40.138-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T18:59:40.159-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.039 seconds
+[2023-11-28T19:00:16.739-0300] {processor.py:157} INFO - Started process (PID=145874) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:00:16.743-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:00:16.744-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:00:16.744-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:00:16.749-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:00:16.748-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T19:00:16.750-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:00:16.775-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.041 seconds
+[2023-11-28T19:00:50.263-0300] {processor.py:157} INFO - Started process (PID=145924) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:00:50.267-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:00:50.268-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:00:50.267-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:00:50.271-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:00:50.270-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T19:00:50.271-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:00:50.291-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.031 seconds
+[2023-11-28T19:01:27.178-0300] {processor.py:157} INFO - Started process (PID=145993) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:01:27.179-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:01:27.180-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:01:27.180-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:01:27.184-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:01:27.183-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T19:01:27.184-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:01:27.203-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.028 seconds
+[2023-11-28T19:02:08.393-0300] {processor.py:157} INFO - Started process (PID=146111) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:02:08.397-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:02:08.398-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:02:08.398-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:02:08.404-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:02:08.402-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T19:02:08.404-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:02:08.433-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.045 seconds
+[2023-11-28T19:02:46.943-0300] {processor.py:157} INFO - Started process (PID=146177) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:02:46.947-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:02:46.948-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:02:46.948-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:02:46.951-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:02:46.950-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T19:02:46.952-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:02:46.969-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.029 seconds
+[2023-11-28T19:03:24.071-0300] {processor.py:157} INFO - Started process (PID=146232) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:03:24.072-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:03:24.073-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:03:24.073-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:03:24.080-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:03:24.078-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T19:03:24.080-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:03:24.106-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.040 seconds
+[2023-11-28T19:04:08.551-0300] {processor.py:157} INFO - Started process (PID=146345) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:04:08.556-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:04:08.557-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:04:08.557-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:04:08.563-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:04:08.562-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T19:04:08.564-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:04:08.592-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.046 seconds
+[2023-11-28T19:04:58.603-0300] {processor.py:157} INFO - Started process (PID=146408) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:04:58.607-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:04:58.608-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:04:58.608-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:04:58.614-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:04:58.612-0300] {dagbag.py:346} ERROR - Failed to import: /home/marcos/airflow/dags/tpm1.py
+Traceback (most recent call last):
+  File "/home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/marcos/airflow/dags/tpm1.py", line 3, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2023-11-28T19:04:58.615-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:04:58.648-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.050 seconds
+[2023-11-28T19:05:51.430-0300] {processor.py:157} INFO - Started process (PID=146501) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:05:51.432-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:05:51.436-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:05:51.435-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:05:51.445-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:05:51.608-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:05:51.608-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-28T19:05:51.626-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:05:51.625-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-28T19:05:51.642-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:05:51.642-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-28T19:05:51.643-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:05:51.643-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:05:51.662-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:05:51.662-0300] {dag.py:2963} INFO - Creating ORM DAG for tpm1_workflow
+[2023-11-28T19:05:51.675-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:05:51.675-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:05:51.706-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.281 seconds
+[2023-11-28T19:06:41.472-0300] {processor.py:157} INFO - Started process (PID=146575) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:06:41.477-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:06:41.480-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:06:41.480-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:06:41.489-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:06:41.513-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:06:41.512-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:06:41.544-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:06:41.544-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:06:41.571-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.103 seconds
+[2023-11-28T19:07:21.075-0300] {processor.py:157} INFO - Started process (PID=146646) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:07:21.080-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:07:21.088-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:07:21.086-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:07:21.103-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:07:21.120-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:07:21.119-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:07:21.137-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:07:21.137-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:07:21.166-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.096 seconds
+[2023-11-28T19:08:05.299-0300] {processor.py:157} INFO - Started process (PID=146710) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:08:05.303-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:08:05.306-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:08:05.306-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:08:05.315-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:08:05.337-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:08:05.337-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:08:05.373-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:08:05.373-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:08:05.424-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.130 seconds
+[2023-11-28T19:09:18.349-0300] {processor.py:157} INFO - Started process (PID=146896) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:09:18.350-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:09:18.352-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:09:18.352-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:09:18.358-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:09:18.373-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:09:18.372-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:09:18.393-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:09:18.393-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:09:18.420-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.073 seconds
+[2023-11-28T19:10:01.065-0300] {processor.py:157} INFO - Started process (PID=146958) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:10:01.069-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:10:01.072-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:10:01.072-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:10:01.081-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:10:01.103-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:10:01.102-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:10:01.134-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:10:01.134-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:10:01.162-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.102 seconds
+[2023-11-28T19:10:42.536-0300] {processor.py:157} INFO - Started process (PID=147077) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:10:42.537-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:10:42.541-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:10:42.540-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:10:42.549-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:10:42.574-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:10:42.573-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:10:42.608-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:10:42.608-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:10:42.635-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.104 seconds
+[2023-11-28T19:11:21.665-0300] {processor.py:157} INFO - Started process (PID=147147) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:11:21.669-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:11:21.673-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:11:21.673-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:11:21.685-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:11:21.715-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:11:21.714-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:11:21.769-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:11:21.768-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:11:21.832-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.172 seconds
+[2023-11-28T19:12:10.147-0300] {processor.py:157} INFO - Started process (PID=147334) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:12:10.152-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:12:10.157-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:12:10.156-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:12:10.171-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:12:10.202-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:12:10.202-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:12:10.248-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:12:10.247-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:12:10.297-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.157 seconds
+[2023-11-28T19:12:59.861-0300] {processor.py:157} INFO - Started process (PID=147391) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:12:59.866-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:12:59.877-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:12:59.875-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:12:59.909-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:12:59.958-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:12:59.956-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:13:00.011-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:13:00.011-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:13:00.060-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.203 seconds
+[2023-11-28T19:13:54.166-0300] {processor.py:157} INFO - Started process (PID=147528) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:13:54.167-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:13:54.171-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:13:54.170-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:13:54.182-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:13:54.210-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:13:54.208-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:13:54.255-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:13:54.255-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:13:54.288-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.129 seconds
+[2023-11-28T19:14:44.015-0300] {processor.py:157} INFO - Started process (PID=147575) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:14:44.020-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:14:44.024-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:14:44.024-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:14:44.033-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:14:44.057-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:14:44.056-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:14:44.089-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:14:44.088-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:14:44.117-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.106 seconds
+[2023-11-28T19:15:33.847-0300] {processor.py:157} INFO - Started process (PID=147626) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:15:33.852-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:15:33.857-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:15:33.856-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:15:33.868-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:15:33.897-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:15:33.896-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:15:33.938-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:15:33.938-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:15:33.973-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.132 seconds
+[2023-11-28T19:16:21.548-0300] {processor.py:157} INFO - Started process (PID=147681) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:16:21.553-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:16:21.557-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:16:21.556-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:16:21.567-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:16:21.590-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:16:21.589-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:16:21.624-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:16:21.623-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:16:21.658-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.114 seconds
+[2023-11-28T19:17:03.726-0300] {processor.py:157} INFO - Started process (PID=147753) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:17:03.730-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:17:03.734-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:17:03.734-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:17:03.744-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:17:03.769-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:17:03.767-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:17:03.800-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:17:03.800-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:17:03.827-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.106 seconds
+[2023-11-28T19:17:47.495-0300] {processor.py:157} INFO - Started process (PID=147801) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:17:47.499-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:17:47.503-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:17:47.502-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:17:47.515-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:17:47.540-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:17:47.539-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:17:47.572-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:17:47.572-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:17:47.601-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.111 seconds
+[2023-11-28T19:18:35.390-0300] {processor.py:157} INFO - Started process (PID=147860) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:18:35.394-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:18:35.398-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:18:35.397-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:18:35.407-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:18:35.429-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:18:35.429-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:18:35.460-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:18:35.460-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:18:35.491-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.106 seconds
+[2023-11-28T19:20:05.774-0300] {processor.py:157} INFO - Started process (PID=148258) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:20:05.778-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:20:05.782-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:20:05.781-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:20:05.792-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:20:05.817-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:20:05.816-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:20:05.849-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:20:05.849-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:20:05.881-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.112 seconds
+[2023-11-28T19:21:25.767-0300] {processor.py:157} INFO - Started process (PID=148651) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:21:25.772-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:21:25.775-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:21:25.775-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:21:25.784-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:21:25.809-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:21:25.808-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:21:25.843-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:21:25.843-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:21:25.872-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.109 seconds
+[2023-11-28T19:22:09.641-0300] {processor.py:157} INFO - Started process (PID=148736) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:22:09.646-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:22:09.652-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:22:09.651-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:22:09.661-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:22:09.690-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:22:09.688-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:22:09.735-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:22:09.734-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:22:09.779-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.142 seconds
+[2023-11-28T19:22:59.398-0300] {processor.py:157} INFO - Started process (PID=148902) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:22:59.402-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:22:59.407-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:22:59.406-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:22:59.417-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:22:59.447-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:22:59.446-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:22:59.483-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:22:59.483-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:22:59.519-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.126 seconds
+[2023-11-28T19:23:47.853-0300] {processor.py:157} INFO - Started process (PID=148949) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:23:47.857-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:23:47.861-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:23:47.860-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:23:47.870-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:23:47.894-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:23:47.893-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:23:47.928-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:23:47.928-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:23:47.958-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.111 seconds
+[2023-11-28T19:24:32.541-0300] {processor.py:157} INFO - Started process (PID=148999) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:24:32.546-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:24:32.549-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:24:32.549-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:24:32.558-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:24:32.581-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:24:32.581-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:24:32.614-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:24:32.613-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:24:32.642-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.106 seconds
+[2023-11-28T19:25:20.563-0300] {processor.py:157} INFO - Started process (PID=149048) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:25:20.568-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:25:20.571-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:25:20.571-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:25:20.580-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:25:20.604-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:25:20.603-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:25:20.640-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:25:20.640-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:25:20.669-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.110 seconds
+[2023-11-28T19:26:10.081-0300] {processor.py:157} INFO - Started process (PID=149102) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:26:10.086-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:26:10.089-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:26:10.089-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:26:10.099-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:26:10.123-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:26:10.123-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:26:10.156-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:26:10.156-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:26:10.186-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.109 seconds
+[2023-11-28T19:26:57.937-0300] {processor.py:157} INFO - Started process (PID=149174) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:26:57.942-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:26:57.945-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:26:57.945-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:26:57.955-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:26:57.981-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:26:57.981-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:26:58.013-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:26:58.013-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:26:58.043-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.111 seconds
+[2023-11-28T19:27:39.551-0300] {processor.py:157} INFO - Started process (PID=149223) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:27:39.555-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:27:39.557-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:27:39.557-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:27:39.563-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:27:39.581-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:27:39.580-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:27:39.600-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:27:39.600-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:27:39.621-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.073 seconds
+[2023-11-28T19:28:16.880-0300] {processor.py:157} INFO - Started process (PID=149304) to work on /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:28:16.884-0300] {processor.py:829} INFO - Processing file /home/marcos/airflow/dags/tpm1.py for tasks to queue
+[2023-11-28T19:28:16.887-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:28:16.886-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:28:16.895-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tpm1_workflow']) retrieved from /home/marcos/airflow/dags/tpm1.py
+[2023-11-28T19:28:16.912-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:28:16.912-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T19:28:16.933-0300] {logging_mixin.py:154} INFO - [2023-11-28T19:28:16.933-0300] {dag.py:3722} INFO - Setting next_dagrun for tpm1_workflow to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:28:16.952-0300] {processor.py:179} INFO - Processing /home/marcos/airflow/dags/tpm1.py took 0.076 seconds

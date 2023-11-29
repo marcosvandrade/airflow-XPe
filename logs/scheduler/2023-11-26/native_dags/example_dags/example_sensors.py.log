@@ -1,0 +1,970 @@
+[2023-11-26T12:01:32.706-0300] {processor.py:157} INFO - Started process (PID=11017) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:01:32.708-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:01:32.710-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:01:32.709-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:01:32.749-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:01:33.038-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:01:33.037-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-26T12:01:33.067-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:01:33.066-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-26T12:01:33.084-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:01:33.084-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-26T12:01:33.085-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:01:33.085-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:01:33.121-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:01:33.120-0300] {dag.py:2963} INFO - Creating ORM DAG for example_sensors
+[2023-11-26T12:01:33.122-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:01:33.122-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:01:33.173-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.474 seconds
+[2023-11-26T12:02:26.294-0300] {processor.py:157} INFO - Started process (PID=11172) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:02:26.298-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:02:26.300-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:02:26.299-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:02:26.315-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:02:26.365-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:02:26.365-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:02:26.382-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:02:26.382-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:02:26.413-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.124 seconds
+[2023-11-26T12:03:17.649-0300] {processor.py:157} INFO - Started process (PID=11251) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:03:17.653-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:03:17.655-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:03:17.654-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:03:17.671-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:03:17.701-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:03:17.701-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:03:17.718-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:03:17.717-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:03:17.745-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.101 seconds
+[2023-11-26T12:04:15.444-0300] {processor.py:157} INFO - Started process (PID=11318) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:04:15.449-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:04:15.451-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:04:15.450-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:04:15.475-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:04:15.507-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:04:15.507-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:04:15.523-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:04:15.523-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:04:15.552-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.115 seconds
+[2023-11-26T12:05:13.195-0300] {processor.py:157} INFO - Started process (PID=11380) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:05:13.196-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:05:13.198-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:05:13.197-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:05:13.217-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:05:13.259-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:05:13.259-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:05:13.284-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:05:13.284-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:05:13.314-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.124 seconds
+[2023-11-26T12:06:11.690-0300] {processor.py:157} INFO - Started process (PID=11451) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:06:11.695-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:06:11.696-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:06:11.696-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:06:11.713-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:06:11.744-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:06:11.743-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:06:11.767-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:06:11.766-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:06:11.794-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2023-11-26T12:06:57.355-0300] {processor.py:157} INFO - Started process (PID=11520) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:06:57.361-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:06:57.364-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:06:57.363-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:06:57.385-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:06:57.413-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:06:57.413-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:06:57.429-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:06:57.429-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:06:57.458-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.112 seconds
+[2023-11-26T12:07:56.800-0300] {processor.py:157} INFO - Started process (PID=11597) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:07:56.805-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:07:56.809-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:07:56.807-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:07:56.843-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:07:56.902-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:07:56.902-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:07:56.920-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:07:56.919-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:07:56.951-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.161 seconds
+[2023-11-26T12:08:56.895-0300] {processor.py:157} INFO - Started process (PID=11662) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:08:56.900-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:08:56.901-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:08:56.900-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:08:56.916-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:08:56.946-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:08:56.945-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:08:56.962-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:08:56.962-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:08:56.991-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.100 seconds
+[2023-11-26T12:09:55.543-0300] {processor.py:157} INFO - Started process (PID=11732) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:09:55.548-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:09:55.551-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:09:55.550-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:09:55.575-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:09:55.619-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:09:55.619-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:09:55.643-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:09:55.643-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:09:55.673-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.137 seconds
+[2023-11-26T12:10:57.263-0300] {processor.py:157} INFO - Started process (PID=11796) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:10:57.267-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:10:57.269-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:10:57.268-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:10:57.284-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:10:57.314-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:10:57.314-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:10:57.331-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:10:57.330-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:10:57.358-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.100 seconds
+[2023-11-26T12:11:50.016-0300] {processor.py:157} INFO - Started process (PID=11880) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:11:50.020-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:11:50.021-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:11:50.020-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:11:50.035-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:11:50.065-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:11:50.065-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:11:50.083-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:11:50.082-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:11:50.111-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.099 seconds
+[2023-11-26T12:12:53.659-0300] {processor.py:157} INFO - Started process (PID=11948) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:12:53.663-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:12:53.664-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:12:53.664-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:12:53.678-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:12:53.707-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:12:53.707-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:12:53.724-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:12:53.724-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:12:53.752-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T12:13:44.636-0300] {processor.py:157} INFO - Started process (PID=12004) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:13:44.640-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:13:44.641-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:13:44.641-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:13:44.656-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:13:44.685-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:13:44.684-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:13:44.701-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:13:44.701-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:13:44.742-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.110 seconds
+[2023-11-26T12:14:42.349-0300] {processor.py:157} INFO - Started process (PID=12068) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:14:42.354-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:14:42.356-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:14:42.355-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:14:42.378-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:14:42.412-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:14:42.411-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:14:42.428-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:14:42.428-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:14:42.456-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.113 seconds
+[2023-11-26T12:15:42.813-0300] {processor.py:157} INFO - Started process (PID=12147) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:15:42.817-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:15:42.819-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:15:42.818-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:15:42.838-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:15:42.867-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:15:42.866-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:15:42.883-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:15:42.883-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:15:42.911-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.104 seconds
+[2023-11-26T12:16:44.902-0300] {processor.py:157} INFO - Started process (PID=12218) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:16:44.907-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:16:44.908-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:16:44.908-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:16:44.928-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:16:44.957-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:16:44.957-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:16:44.974-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:16:44.974-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:16:45.001-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.106 seconds
+[2023-11-26T12:17:44.310-0300] {processor.py:157} INFO - Started process (PID=12313) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:17:44.314-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:17:44.315-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:17:44.315-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:17:44.331-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:17:44.359-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:17:44.358-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:17:44.376-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:17:44.375-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:17:44.407-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.102 seconds
+[2023-11-26T12:18:44.372-0300] {processor.py:157} INFO - Started process (PID=12377) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:18:44.376-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:18:44.377-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:18:44.377-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:18:44.392-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:18:44.421-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:18:44.420-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:18:44.437-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:18:44.437-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:18:44.465-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T12:19:27.789-0300] {processor.py:157} INFO - Started process (PID=12422) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:19:27.793-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:19:27.794-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:19:27.794-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:19:27.809-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:19:27.838-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:19:27.838-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:19:27.859-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:19:27.859-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:19:27.897-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.112 seconds
+[2023-11-26T12:20:27.777-0300] {processor.py:157} INFO - Started process (PID=12486) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:20:27.781-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:20:27.783-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:20:27.782-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:20:27.797-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:20:27.825-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:20:27.825-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:20:27.842-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:20:27.841-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:20:27.871-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T12:21:29.138-0300] {processor.py:157} INFO - Started process (PID=12549) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:21:29.143-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:21:29.144-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:21:29.143-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:21:29.159-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:21:29.187-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:21:29.186-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:21:29.202-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:21:29.202-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:21:29.231-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.097 seconds
+[2023-11-26T12:22:13.511-0300] {processor.py:157} INFO - Started process (PID=12622) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:22:13.515-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:22:13.516-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:22:13.516-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:22:13.530-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:22:13.559-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:22:13.559-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:22:13.575-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:22:13.575-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:22:13.603-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.097 seconds
+[2023-11-26T12:23:14.258-0300] {processor.py:157} INFO - Started process (PID=12689) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:23:14.263-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:23:14.266-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:23:14.265-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:23:14.282-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:23:14.311-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:23:14.311-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:23:14.327-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:23:14.327-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:23:14.355-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.107 seconds
+[2023-11-26T12:24:12.315-0300] {processor.py:157} INFO - Started process (PID=12751) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:24:12.319-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:24:12.321-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:24:12.320-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:24:12.334-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:24:12.363-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:24:12.362-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:24:12.379-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:24:12.379-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:24:12.407-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.096 seconds
+[2023-11-26T12:25:13.736-0300] {processor.py:157} INFO - Started process (PID=12819) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:25:13.740-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:25:13.741-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:25:13.741-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:25:13.755-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:25:13.786-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:25:13.786-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:25:13.802-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:25:13.802-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:25:13.831-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.099 seconds
+[2023-11-26T12:26:13.982-0300] {processor.py:157} INFO - Started process (PID=12882) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:26:13.986-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:26:13.987-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:26:13.987-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:26:14.003-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:26:14.032-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:26:14.032-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:26:14.048-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:26:14.048-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:26:14.076-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T12:26:57.070-0300] {processor.py:157} INFO - Started process (PID=12949) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:26:57.075-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:26:57.077-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:26:57.076-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:26:57.098-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:26:57.126-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:26:57.126-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:26:57.143-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:26:57.142-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:26:57.174-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.113 seconds
+[2023-11-26T12:27:56.009-0300] {processor.py:157} INFO - Started process (PID=13014) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:27:56.013-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:27:56.014-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:27:56.014-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:27:56.029-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:27:56.058-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:27:56.057-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:27:56.081-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:27:56.080-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:27:56.118-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.113 seconds
+[2023-11-26T12:28:59.916-0300] {processor.py:157} INFO - Started process (PID=13081) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:28:59.917-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:28:59.919-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:28:59.918-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:28:59.933-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:28:59.965-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:28:59.965-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:28:59.994-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:28:59.993-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:29:00.031-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.119 seconds
+[2023-11-26T12:30:02.415-0300] {processor.py:157} INFO - Started process (PID=13146) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:30:02.419-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:30:02.421-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:30:02.420-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:30:02.435-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:30:02.465-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:30:02.465-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:30:02.482-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:30:02.481-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:30:02.509-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T12:30:56.742-0300] {processor.py:157} INFO - Started process (PID=13210) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:30:56.746-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:30:56.747-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:30:56.746-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:30:56.761-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:30:56.805-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:30:56.805-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:30:56.830-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:30:56.829-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:30:56.865-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.128 seconds
+[2023-11-26T12:31:55.009-0300] {processor.py:157} INFO - Started process (PID=13294) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:31:55.013-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:31:55.014-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:31:55.014-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:31:55.028-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:31:55.057-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:31:55.057-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:31:55.073-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:31:55.073-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:31:55.101-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.097 seconds
+[2023-11-26T12:32:39.186-0300] {processor.py:157} INFO - Started process (PID=13453) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:32:39.188-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:32:39.189-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:32:39.188-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:32:39.209-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:32:39.245-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:32:39.245-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:32:39.267-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:32:39.267-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:32:39.310-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.129 seconds
+[2023-11-26T12:33:23.379-0300] {processor.py:157} INFO - Started process (PID=13509) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:33:23.383-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:33:23.385-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:33:23.385-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:33:23.404-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:33:23.437-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:33:23.436-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:33:23.462-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:33:23.461-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:33:23.500-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.126 seconds
+[2023-11-26T12:34:26.346-0300] {processor.py:157} INFO - Started process (PID=13586) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:34:26.351-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:34:26.353-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:34:26.353-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:34:26.377-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:34:26.423-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:34:26.422-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:34:26.450-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:34:26.449-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:34:26.499-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.159 seconds
+[2023-11-26T12:35:10.294-0300] {processor.py:157} INFO - Started process (PID=13639) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:35:10.299-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:35:10.300-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:35:10.300-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:35:10.323-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:35:10.365-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:35:10.365-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:35:10.383-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:35:10.383-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:35:10.416-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.126 seconds
+[2023-11-26T12:35:56.000-0300] {processor.py:157} INFO - Started process (PID=13697) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:35:56.005-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:35:56.007-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:35:56.006-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:35:56.028-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:35:56.064-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:35:56.064-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:35:56.083-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:35:56.083-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:35:56.127-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.133 seconds
+[2023-11-26T12:37:38.211-0300] {processor.py:157} INFO - Started process (PID=13817) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:37:38.215-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:37:38.217-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:37:38.216-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:37:38.233-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:37:38.268-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:37:38.268-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:37:38.286-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:37:38.285-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:37:38.318-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.111 seconds
+[2023-11-26T12:38:28.144-0300] {processor.py:157} INFO - Started process (PID=13886) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:38:28.145-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:38:28.147-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:38:28.146-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:38:28.162-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:38:28.191-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:38:28.191-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:38:28.208-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:38:28.207-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:38:28.236-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.097 seconds
+[2023-11-26T12:39:17.930-0300] {processor.py:157} INFO - Started process (PID=13952) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:39:17.934-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:39:17.935-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:39:17.935-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:39:17.950-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:39:17.979-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:39:17.978-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:39:17.997-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:39:17.996-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:39:18.029-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.103 seconds
+[2023-11-26T12:40:22.378-0300] {processor.py:157} INFO - Started process (PID=14047) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:40:22.382-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:40:22.383-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:40:22.383-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:40:22.400-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:40:22.448-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:40:22.447-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:40:22.466-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:40:22.466-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:40:22.515-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.142 seconds
+[2023-11-26T12:41:22.166-0300] {processor.py:157} INFO - Started process (PID=14110) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:41:22.170-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:41:22.172-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:41:22.171-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:41:22.186-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:41:22.214-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:41:22.214-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:41:22.230-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:41:22.230-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:41:22.260-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T12:42:21.199-0300] {processor.py:157} INFO - Started process (PID=14212) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:42:21.200-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:42:21.202-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:42:21.201-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:42:21.218-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:42:21.256-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:42:21.255-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:42:21.275-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:42:21.275-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:42:21.310-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.117 seconds
+[2023-11-26T12:43:23.776-0300] {processor.py:157} INFO - Started process (PID=14280) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:43:23.780-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:43:23.782-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:43:23.781-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:43:23.796-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:43:23.826-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:43:23.826-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:43:23.844-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:43:23.844-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:43:23.872-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.100 seconds
+[2023-11-26T12:44:21.736-0300] {processor.py:157} INFO - Started process (PID=14442) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:44:21.741-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:44:21.743-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:44:21.742-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:44:21.768-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:44:21.801-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:44:21.801-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:44:21.817-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:44:21.817-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:44:21.846-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.115 seconds
+[2023-11-26T12:45:21.658-0300] {processor.py:157} INFO - Started process (PID=14527) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:45:21.668-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:45:21.670-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:45:21.669-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:45:21.694-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:45:21.737-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:45:21.737-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:45:21.753-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:45:21.753-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:45:21.780-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.128 seconds
+[2023-11-26T12:46:24.458-0300] {processor.py:157} INFO - Started process (PID=14610) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:46:24.463-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:46:24.464-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:46:24.463-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:46:24.479-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:46:24.510-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:46:24.510-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:46:24.526-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:46:24.526-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:46:24.558-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2023-11-26T12:47:07.360-0300] {processor.py:157} INFO - Started process (PID=14696) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:47:07.364-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:47:07.365-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:47:07.365-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:47:07.380-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:47:07.408-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:47:07.408-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:47:07.424-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:47:07.424-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:47:07.454-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.099 seconds
+[2023-11-26T12:48:07.965-0300] {processor.py:157} INFO - Started process (PID=14784) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:48:07.969-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:48:07.970-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:48:07.969-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:48:07.984-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:48:08.013-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:48:08.013-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:48:08.030-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:48:08.030-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:48:08.058-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T12:48:51.227-0300] {processor.py:157} INFO - Started process (PID=14835) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:48:51.231-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:48:51.233-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:48:51.232-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:48:51.247-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:48:51.275-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:48:51.275-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:48:51.292-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:48:51.291-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:48:51.320-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.097 seconds
+[2023-11-26T12:49:35.495-0300] {processor.py:157} INFO - Started process (PID=14904) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:49:35.499-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:49:35.500-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:49:35.500-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:49:35.517-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:49:35.558-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:49:35.557-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:49:35.579-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:49:35.578-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:49:35.613-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.124 seconds
+[2023-11-26T12:50:21.193-0300] {processor.py:157} INFO - Started process (PID=14961) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:50:21.197-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:50:21.199-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:50:21.198-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:50:21.214-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:50:21.242-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:50:21.242-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:50:21.258-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:50:21.258-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:50:21.285-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.097 seconds
+[2023-11-26T12:51:07.806-0300] {processor.py:157} INFO - Started process (PID=15010) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:51:07.820-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:51:07.829-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:51:07.828-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:51:07.850-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:51:07.888-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:51:07.888-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:51:07.904-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:51:07.904-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:51:07.939-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.139 seconds
+[2023-11-26T12:52:09.405-0300] {processor.py:157} INFO - Started process (PID=15099) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:52:09.409-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:52:09.410-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:52:09.410-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:52:09.424-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:52:09.465-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:52:09.465-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:52:09.491-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:52:09.490-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:52:09.526-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.126 seconds
+[2023-11-26T12:53:10.064-0300] {processor.py:157} INFO - Started process (PID=15162) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:53:10.068-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:53:10.069-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:53:10.069-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:53:10.084-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:53:10.113-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:53:10.113-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:53:10.129-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:53:10.129-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:53:10.158-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T12:54:08.831-0300] {processor.py:157} INFO - Started process (PID=15228) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:54:08.836-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:54:08.839-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:54:08.838-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:54:08.859-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:54:08.887-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:54:08.887-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:54:08.903-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:54:08.903-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:54:08.931-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.109 seconds
+[2023-11-26T12:55:09.289-0300] {processor.py:157} INFO - Started process (PID=15305) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:55:09.294-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:55:09.297-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:55:09.296-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:55:09.323-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:55:09.354-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:55:09.353-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:55:09.375-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:55:09.375-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:55:09.416-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.134 seconds
+[2023-11-26T12:55:51.472-0300] {processor.py:157} INFO - Started process (PID=15363) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:55:51.477-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:55:51.480-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:55:51.479-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:55:51.499-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:55:51.529-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:55:51.529-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:55:51.547-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:55:51.547-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:55:51.586-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.124 seconds
+[2023-11-26T12:56:35.987-0300] {processor.py:157} INFO - Started process (PID=15404) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:56:35.992-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:56:35.994-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:56:35.993-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:56:36.014-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:56:36.042-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:56:36.042-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:56:36.058-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:56:36.058-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:56:36.086-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2023-11-26T12:57:34.770-0300] {processor.py:157} INFO - Started process (PID=15498) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:57:34.775-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:57:34.778-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:57:34.777-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:57:34.802-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:57:34.831-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:57:34.830-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:57:34.847-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:57:34.846-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:57:34.875-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.112 seconds
+[2023-11-26T12:58:19.742-0300] {processor.py:157} INFO - Started process (PID=15545) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:58:19.746-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:58:19.749-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:58:19.748-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:58:19.774-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:58:19.802-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:58:19.802-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:58:19.826-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:58:19.826-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:58:19.853-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.116 seconds
+[2023-11-26T12:59:21.985-0300] {processor.py:157} INFO - Started process (PID=15611) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:59:21.990-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T12:59:21.992-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:59:21.991-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:59:22.011-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T12:59:22.040-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:59:22.039-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T12:59:22.056-0300] {logging_mixin.py:154} INFO - [2023-11-26T12:59:22.055-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T12:59:22.084-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.106 seconds
+[2023-11-26T13:00:06.431-0300] {processor.py:157} INFO - Started process (PID=15662) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:00:06.436-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:00:06.437-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:00:06.436-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:00:06.453-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:00:06.481-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:00:06.481-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:00:06.497-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:00:06.497-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:00:06.524-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T13:01:08.829-0300] {processor.py:157} INFO - Started process (PID=15730) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:01:08.834-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:01:08.836-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:01:08.835-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:01:08.855-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:01:08.884-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:01:08.884-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:01:08.900-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:01:08.900-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:01:08.928-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2023-11-26T13:02:10.412-0300] {processor.py:157} INFO - Started process (PID=15823) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:02:10.418-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:02:10.419-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:02:10.419-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:02:10.436-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:02:10.465-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:02:10.465-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:02:10.481-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:02:10.480-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:02:10.508-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.104 seconds
+[2023-11-26T13:03:12.960-0300] {processor.py:157} INFO - Started process (PID=15894) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:03:12.965-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:03:12.966-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:03:12.965-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:03:12.981-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:03:13.010-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:03:13.010-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:03:13.027-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:03:13.026-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:03:13.054-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.099 seconds
+[2023-11-26T13:04:11.893-0300] {processor.py:157} INFO - Started process (PID=15960) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:04:11.898-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:04:11.899-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:04:11.899-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:04:11.915-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:04:11.944-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:04:11.944-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:04:11.961-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:04:11.961-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:04:11.990-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.101 seconds
+[2023-11-26T13:05:10.680-0300] {processor.py:157} INFO - Started process (PID=16026) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:05:10.685-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:05:10.686-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:05:10.685-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:05:10.704-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:05:10.732-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:05:10.732-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:05:10.748-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:05:10.748-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:05:10.775-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.100 seconds
+[2023-11-26T13:06:08.931-0300] {processor.py:157} INFO - Started process (PID=16089) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:06:08.935-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:06:08.937-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:06:08.936-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:06:08.957-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:06:08.987-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:06:08.986-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:06:09.002-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:06:09.002-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:06:09.031-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2023-11-26T13:07:11.619-0300] {processor.py:157} INFO - Started process (PID=16183) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:07:11.626-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:07:11.628-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:07:11.627-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:07:11.649-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:07:11.677-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:07:11.677-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:07:11.693-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:07:11.693-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:07:11.721-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2023-11-26T13:08:09.152-0300] {processor.py:157} INFO - Started process (PID=16251) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:08:09.156-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:08:09.158-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:08:09.157-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:08:09.175-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:08:09.210-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:08:09.210-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:08:09.228-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:08:09.227-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:08:09.256-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.110 seconds
+[2023-11-26T13:09:10.471-0300] {processor.py:157} INFO - Started process (PID=16317) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:09:10.473-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:09:10.474-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:09:10.473-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:09:10.488-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:09:10.516-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:09:10.516-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:09:10.533-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:09:10.533-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:09:10.560-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.094 seconds
+[2023-11-26T13:10:11.497-0300] {processor.py:157} INFO - Started process (PID=16382) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:10:11.501-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:10:11.503-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:10:11.503-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:10:11.523-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:10:11.552-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:10:11.552-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:10:11.569-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:10:11.569-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:10:11.597-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.107 seconds
+[2023-11-26T13:11:15.080-0300] {processor.py:157} INFO - Started process (PID=16449) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:11:15.085-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:11:15.087-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:11:15.086-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:11:15.106-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:11:15.134-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:11:15.134-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:11:15.150-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:11:15.150-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:11:15.179-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2023-11-26T13:11:57.917-0300] {processor.py:157} INFO - Started process (PID=16519) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:11:57.922-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:11:57.923-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:11:57.923-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:11:57.940-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:11:57.969-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:11:57.969-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:11:57.985-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:11:57.985-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:11:58.019-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.107 seconds
+[2023-11-26T13:12:41.135-0300] {processor.py:157} INFO - Started process (PID=16562) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:12:41.139-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:12:41.141-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:12:41.140-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:12:41.157-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:12:41.187-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:12:41.186-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:12:41.203-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:12:41.203-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:12:41.232-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.102 seconds
+[2023-11-26T13:13:25.206-0300] {processor.py:157} INFO - Started process (PID=16611) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:13:25.211-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:13:25.212-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:13:25.212-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:13:25.228-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:13:25.257-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:13:25.256-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:13:25.273-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:13:25.273-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:13:25.301-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.099 seconds
+[2023-11-26T13:14:11.748-0300] {processor.py:157} INFO - Started process (PID=16659) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:14:11.753-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:14:11.755-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:14:11.754-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:14:11.775-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:14:11.804-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:14:11.803-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:14:11.820-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:14:11.820-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:14:11.848-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.106 seconds
+[2023-11-26T13:15:14.532-0300] {processor.py:157} INFO - Started process (PID=16727) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:15:14.537-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:15:14.539-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:15:14.538-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:15:14.557-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:15:14.585-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:15:14.585-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:15:14.601-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:15:14.601-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:15:14.629-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.102 seconds
+[2023-11-26T13:16:15.442-0300] {processor.py:157} INFO - Started process (PID=16793) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:16:15.446-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:16:15.449-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:16:15.448-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:16:15.473-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:16:15.502-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:16:15.502-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:16:15.518-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:16:15.518-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:16:15.546-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.110 seconds
+[2023-11-26T13:17:02.508-0300] {processor.py:157} INFO - Started process (PID=16877) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:17:02.513-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:17:02.514-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:17:02.514-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:17:02.530-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:17:02.559-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:17:02.558-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:17:02.575-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:17:02.574-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:17:02.602-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.099 seconds
+[2023-11-26T13:18:02.202-0300] {processor.py:157} INFO - Started process (PID=16944) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:18:02.203-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:18:02.205-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:18:02.204-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:18:02.219-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:18:02.248-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:18:02.248-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:18:02.264-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:18:02.264-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:18:02.292-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.094 seconds
+[2023-11-26T13:19:03.077-0300] {processor.py:157} INFO - Started process (PID=17013) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:19:03.082-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:19:03.083-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:19:03.082-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:19:03.097-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:19:03.126-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:19:03.126-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:19:03.142-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:19:03.142-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:19:03.171-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T13:20:02.775-0300] {processor.py:157} INFO - Started process (PID=17077) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:20:02.781-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:20:02.783-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:20:02.783-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:20:02.805-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:20:02.840-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:20:02.840-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:20:02.859-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:20:02.858-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:20:02.891-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.124 seconds
+[2023-11-26T13:21:02.848-0300] {processor.py:157} INFO - Started process (PID=17148) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:21:02.853-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:21:02.855-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:21:02.854-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:21:02.873-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:21:02.902-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:21:02.902-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:21:02.918-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:21:02.918-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:21:02.950-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2023-11-26T13:22:04.095-0300] {processor.py:157} INFO - Started process (PID=17235) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:22:04.100-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:22:04.102-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:22:04.101-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:22:04.124-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:22:04.153-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:22:04.153-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:22:04.169-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:22:04.169-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:22:04.196-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.106 seconds
+[2023-11-26T13:23:04.116-0300] {processor.py:157} INFO - Started process (PID=17304) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:23:04.120-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:23:04.121-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:23:04.121-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:23:04.137-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:23:04.165-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:23:04.165-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:23:04.182-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:23:04.182-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:23:04.211-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.100 seconds
+[2023-11-26T13:24:02.463-0300] {processor.py:157} INFO - Started process (PID=17368) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:24:02.468-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:24:02.469-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:24:02.469-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:24:02.485-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:24:02.514-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:24:02.514-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:24:02.530-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:24:02.530-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:24:02.560-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.101 seconds
+[2023-11-26T13:24:46.397-0300] {processor.py:157} INFO - Started process (PID=17409) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:24:46.401-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:24:46.402-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:24:46.402-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:24:46.418-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:24:46.446-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:24:46.446-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:24:46.463-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:24:46.462-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:24:46.490-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T13:25:44.880-0300] {processor.py:157} INFO - Started process (PID=17473) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:25:44.884-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:25:44.886-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:25:44.885-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:25:44.900-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:25:44.928-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:25:44.928-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:25:44.944-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:25:44.944-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:25:44.972-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.097 seconds
+[2023-11-26T13:26:45.004-0300] {processor.py:157} INFO - Started process (PID=17539) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:26:45.008-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:26:45.009-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:26:45.009-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:26:45.024-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:26:45.053-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:26:45.053-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:26:45.070-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:26:45.070-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:26:45.097-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.097 seconds
+[2023-11-26T13:27:26.772-0300] {processor.py:157} INFO - Started process (PID=17613) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:27:26.778-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:27:26.779-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:27:26.779-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:27:26.797-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:27:26.825-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:27:26.825-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:27:26.842-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:27:26.841-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:27:26.870-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.104 seconds
+[2023-11-26T13:28:25.524-0300] {processor.py:157} INFO - Started process (PID=17679) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:28:25.529-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:28:25.531-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:28:25.530-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:28:25.550-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:28:25.578-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:28:25.578-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:28:25.594-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:28:25.594-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:28:25.624-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.106 seconds
+[2023-11-26T13:29:09.911-0300] {processor.py:157} INFO - Started process (PID=17728) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:29:09.916-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:29:09.917-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:29:09.917-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:29:09.941-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:29:09.979-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:29:09.979-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:29:09.995-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:29:09.995-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:29:10.030-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.125 seconds
+[2023-11-26T13:31:21.081-0300] {processor.py:157} INFO - Started process (PID=17979) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:31:21.086-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:31:21.087-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:31:21.087-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:31:21.105-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:31:21.137-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:31:21.137-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:31:21.154-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:31:21.154-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:31:21.191-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.115 seconds
+[2023-11-26T13:32:09.437-0300] {processor.py:157} INFO - Started process (PID=18060) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:32:09.442-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:32:09.443-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:32:09.442-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:32:09.457-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:32:09.486-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:32:09.485-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:32:09.502-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:32:09.501-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:32:09.529-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.095 seconds
+[2023-11-26T13:33:02.025-0300] {processor.py:157} INFO - Started process (PID=18140) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:33:02.029-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:33:02.030-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:33:02.030-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:33:02.045-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:33:02.079-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:33:02.079-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:33:02.102-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:33:02.101-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:33:02.144-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.124 seconds
+[2023-11-26T13:33:57.289-0300] {processor.py:157} INFO - Started process (PID=18738) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:33:57.291-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:33:57.293-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:33:57.292-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:33:57.313-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:33:57.344-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:33:57.343-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:33:57.364-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:33:57.364-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:33:57.397-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.114 seconds
+[2023-11-26T13:34:47.262-0300] {processor.py:157} INFO - Started process (PID=18874) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:34:47.266-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:34:47.268-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:34:47.267-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:34:47.282-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:34:47.313-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:34:47.312-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:34:47.329-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:34:47.329-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:34:47.356-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T13:35:46.998-0300] {processor.py:157} INFO - Started process (PID=18977) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:35:47.000-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:35:47.001-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:35:47.001-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:35:47.022-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:35:47.070-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:35:47.070-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:35:47.095-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:35:47.095-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:35:47.130-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.138 seconds
+[2023-11-26T13:36:45.780-0300] {processor.py:157} INFO - Started process (PID=19063) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:36:45.784-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:36:45.785-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:36:45.785-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:36:45.806-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:36:45.851-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:36:45.851-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:36:45.873-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:36:45.873-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:36:45.909-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.135 seconds
+[2023-11-26T13:37:45.029-0300] {processor.py:157} INFO - Started process (PID=19135) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:37:45.033-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:37:45.035-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:37:45.034-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:37:45.054-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:37:45.085-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:37:45.084-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:37:45.102-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:37:45.102-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:37:45.145-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.121 seconds
+[2023-11-26T13:38:47.256-0300] {processor.py:157} INFO - Started process (PID=19208) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:38:47.260-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:38:47.261-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:38:47.261-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:38:47.276-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:38:47.305-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:38:47.305-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:38:47.323-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:38:47.322-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:38:47.352-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.100 seconds
+[2023-11-26T13:39:47.584-0300] {processor.py:157} INFO - Started process (PID=19273) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:39:47.588-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:39:47.589-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:39:47.589-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:39:47.603-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:39:47.632-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:39:47.632-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:39:47.648-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:39:47.648-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:39:47.676-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.096 seconds
+[2023-11-26T13:40:50.238-0300] {processor.py:157} INFO - Started process (PID=19343) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:40:50.242-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:40:50.243-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:40:50.243-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:40:50.259-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:40:50.306-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:40:50.306-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:40:50.327-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:40:50.327-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:40:50.362-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.129 seconds
+[2023-11-26T13:41:50.716-0300] {processor.py:157} INFO - Started process (PID=19430) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:41:50.720-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:41:50.722-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:41:50.721-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:41:50.739-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:41:50.772-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:41:50.772-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:41:50.789-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:41:50.789-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:41:50.819-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.109 seconds
+[2023-11-26T13:42:45.965-0300] {processor.py:157} INFO - Started process (PID=19505) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:42:45.969-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:42:45.971-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:42:45.970-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:42:45.985-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:42:46.015-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:42:46.014-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:42:46.031-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:42:46.031-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:42:46.059-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2023-11-26T13:43:48.376-0300] {processor.py:157} INFO - Started process (PID=19610) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:43:48.380-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:43:48.382-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:43:48.381-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:43:48.398-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:43:48.434-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:43:48.434-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:43:48.454-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:43:48.454-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:43:48.483-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.112 seconds
+[2023-11-26T13:44:35.367-0300] {processor.py:157} INFO - Started process (PID=19668) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:44:35.372-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:44:35.374-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:44:35.373-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:44:35.393-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:44:35.437-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:44:35.437-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:44:35.460-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:44:35.460-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:44:35.507-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.146 seconds
+[2023-11-26T13:45:20.436-0300] {processor.py:157} INFO - Started process (PID=19719) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:45:20.437-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:45:20.438-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:45:20.438-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:45:20.453-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:45:20.485-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:45:20.485-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:45:20.504-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:45:20.504-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:45:20.541-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.110 seconds
+[2023-11-26T13:46:21.901-0300] {processor.py:157} INFO - Started process (PID=19798) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:46:21.905-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:46:21.906-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:46:21.906-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:46:21.922-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:46:21.954-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:46:21.953-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:46:21.970-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:46:21.970-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:46:22.000-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.104 seconds
+[2023-11-26T13:47:23.470-0300] {processor.py:157} INFO - Started process (PID=19907) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:47:23.475-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:47:23.477-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:47:23.476-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:47:23.501-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:47:23.548-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:47:23.548-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:47:23.572-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:47:23.572-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:47:23.610-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.147 seconds
+[2023-11-26T13:48:11.420-0300] {processor.py:157} INFO - Started process (PID=19972) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:48:11.426-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:48:11.432-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:48:11.430-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:48:11.457-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:48:11.497-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:48:11.496-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:48:11.519-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:48:11.519-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:48:11.559-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.154 seconds
+[2023-11-26T13:48:57.309-0300] {processor.py:157} INFO - Started process (PID=20041) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:48:57.313-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:48:57.314-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:48:57.314-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:48:57.329-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:48:57.359-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:48:57.359-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:48:57.377-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:48:57.377-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:48:57.414-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.110 seconds
+[2023-11-26T13:50:03.878-0300] {processor.py:157} INFO - Started process (PID=20131) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:50:03.882-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:50:03.884-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:50:03.883-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:50:03.905-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:50:03.951-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:50:03.950-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:50:03.975-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:50:03.975-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:50:04.013-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.141 seconds
+[2023-11-26T13:50:50.648-0300] {processor.py:157} INFO - Started process (PID=20179) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:50:50.655-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:50:50.658-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:50:50.657-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:50:50.707-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:50:50.763-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:50:50.762-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:50:50.787-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:50:50.787-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:50:50.825-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.189 seconds
+[2023-11-26T13:51:35.131-0300] {processor.py:157} INFO - Started process (PID=20220) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:51:35.136-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:51:35.137-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:51:35.137-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:51:35.158-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:51:35.194-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:51:35.194-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:51:35.218-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:51:35.217-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:51:35.267-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.142 seconds
+[2023-11-26T13:52:20.851-0300] {processor.py:157} INFO - Started process (PID=20297) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:52:20.858-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:52:20.861-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:52:20.860-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:52:20.893-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:52:20.935-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:52:20.934-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:52:20.958-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:52:20.958-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:52:21.009-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.172 seconds
+[2023-11-26T13:53:25.524-0300] {processor.py:157} INFO - Started process (PID=20363) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:53:25.530-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:53:25.533-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:53:25.532-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:53:25.572-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:53:25.614-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:53:25.614-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:53:25.633-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:53:25.632-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:53:25.670-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.157 seconds
+[2023-11-26T13:54:10.607-0300] {processor.py:157} INFO - Started process (PID=20411) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:54:10.611-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:54:10.613-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:54:10.613-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:54:10.634-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:54:10.669-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:54:10.669-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:54:10.688-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:54:10.687-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:54:10.721-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.119 seconds
+[2023-11-26T13:54:56.424-0300] {processor.py:157} INFO - Started process (PID=20460) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:54:56.428-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:54:56.430-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:54:56.429-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:54:56.449-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:54:56.502-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:54:56.502-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:54:56.527-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:54:56.526-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:54:56.567-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.149 seconds
+[2023-11-26T13:55:39.376-0300] {processor.py:157} INFO - Started process (PID=20502) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:55:39.380-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:55:39.382-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:55:39.381-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:55:39.402-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:55:39.441-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:55:39.441-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:55:39.463-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:55:39.463-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:55:39.504-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.133 seconds
+[2023-11-26T13:56:23.573-0300] {processor.py:157} INFO - Started process (PID=20562) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:56:23.578-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:56:23.579-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:56:23.579-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:56:23.597-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:56:23.631-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:56:23.631-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:56:23.651-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:56:23.651-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:56:23.683-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.115 seconds
+[2023-11-26T13:57:08.100-0300] {processor.py:157} INFO - Started process (PID=20629) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:57:08.104-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:57:08.106-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:57:08.105-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:57:08.124-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:57:08.162-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:57:08.162-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:57:08.182-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:57:08.182-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:57:08.217-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.122 seconds
+[2023-11-26T13:57:51.873-0300] {processor.py:157} INFO - Started process (PID=20683) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:57:51.877-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:57:51.878-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:57:51.878-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:57:51.900-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:57:51.941-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:57:51.941-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:57:51.964-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:57:51.964-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:57:52.004-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.137 seconds
+[2023-11-26T13:58:36.139-0300] {processor.py:157} INFO - Started process (PID=20732) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:58:36.144-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:58:36.145-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:58:36.145-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:58:36.163-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:58:36.197-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:58:36.196-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:58:36.217-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:58:36.217-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:58:36.250-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.116 seconds
+[2023-11-26T13:59:40.859-0300] {processor.py:157} INFO - Started process (PID=20861) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:59:40.861-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T13:59:40.863-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:59:40.862-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:59:40.897-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T13:59:40.948-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:59:40.948-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T13:59:40.973-0300] {logging_mixin.py:154} INFO - [2023-11-26T13:59:40.973-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T13:59:41.014-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.164 seconds
+[2023-11-26T14:00:25.724-0300] {processor.py:157} INFO - Started process (PID=20949) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:00:25.729-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T14:00:25.730-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:00:25.730-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:00:25.748-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:00:25.781-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:00:25.781-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T14:00:25.805-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:00:25.804-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T14:00:25.839-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.120 seconds
+[2023-11-26T14:01:09.743-0300] {processor.py:157} INFO - Started process (PID=21101) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:01:09.745-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T14:01:09.746-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:01:09.745-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:01:09.762-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:01:09.795-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:01:09.795-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T14:01:09.813-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:01:09.813-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T14:01:09.847-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.110 seconds
+[2023-11-26T14:02:13.486-0300] {processor.py:157} INFO - Started process (PID=21199) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:02:13.490-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T14:02:13.491-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:02:13.491-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:02:13.507-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:02:13.542-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:02:13.541-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T14:02:13.561-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:02:13.561-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T14:02:13.594-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.114 seconds
+[2023-11-26T14:03:19.558-0300] {processor.py:157} INFO - Started process (PID=21529) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:03:19.563-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T14:03:19.566-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:03:19.565-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:03:19.588-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:03:19.619-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:03:19.619-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T14:03:19.637-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:03:19.637-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T14:03:19.669-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.116 seconds
+[2023-11-26T14:04:03.018-0300] {processor.py:157} INFO - Started process (PID=21607) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:04:03.022-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T14:04:03.024-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:04:03.023-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:04:03.039-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:04:03.071-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:04:03.070-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T14:04:03.089-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:04:03.088-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T14:04:03.118-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2023-11-26T14:05:12.204-0300] {processor.py:157} INFO - Started process (PID=21700) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:05:12.206-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T14:05:12.207-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:05:12.207-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:05:12.226-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:05:12.255-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:05:12.254-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T14:05:12.271-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:05:12.271-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T14:05:12.299-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.102 seconds
+[2023-11-26T14:06:03.125-0300] {processor.py:157} INFO - Started process (PID=21772) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:06:03.129-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T14:06:03.130-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:06:03.130-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:06:03.145-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:06:03.176-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:06:03.175-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T14:06:03.193-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:06:03.193-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T14:06:03.223-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.103 seconds
+[2023-11-26T14:06:48.150-0300] {processor.py:157} INFO - Started process (PID=21841) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:06:48.155-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T14:06:48.158-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:06:48.157-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:06:48.182-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:06:48.211-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:06:48.211-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T14:06:48.228-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:06:48.227-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T14:06:48.255-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.112 seconds
+[2023-11-26T14:07:47.845-0300] {processor.py:157} INFO - Started process (PID=21915) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:07:47.850-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T14:07:47.852-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:07:47.851-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:07:47.870-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:07:47.899-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:07:47.899-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T14:07:47.916-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:07:47.916-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T14:07:47.944-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2023-11-26T14:08:29.723-0300] {processor.py:157} INFO - Started process (PID=21985) to work on /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:08:29.727-0300] {processor.py:829} INFO - Processing file /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-11-26T14:08:29.729-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:08:29.728-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:08:29.745-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2023-11-26T14:08:29.773-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:08:29.773-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T14:08:29.791-0300] {logging_mixin.py:154} INFO - [2023-11-26T14:08:29.791-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-11-26T14:08:29.819-0300] {processor.py:179} INFO - Processing /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.101 seconds

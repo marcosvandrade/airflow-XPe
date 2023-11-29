@@ -1,0 +1,16 @@
+[2023-11-28T19:19:06.920-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tpm1_workflow.run_capture manual__2023-11-28T22:19:00.359451+00:00 [queued]>
+[2023-11-28T19:19:06.929-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tpm1_workflow.run_capture manual__2023-11-28T22:19:00.359451+00:00 [queued]>
+[2023-11-28T19:19:06.929-0300] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-28T19:19:06.950-0300] {taskinstance.py:1382} INFO - Executing <Task(PapermillOperator): run_capture> on 2023-11-28 22:19:00.359451+00:00
+[2023-11-28T19:19:06.958-0300] {standard_task_runner.py:57} INFO - Started process 147919 to run task
+[2023-11-28T19:19:06.963-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'tpm1_workflow', 'run_capture', 'manual__2023-11-28T22:19:00.359451+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/tpm1.py', '--cfg-path', '/tmp/tmpr05ojc4m']
+[2023-11-28T19:19:06.964-0300] {standard_task_runner.py:85} INFO - Job 14: Subtask run_capture
+[2023-11-28T19:19:07.017-0300] {task_command.py:416} INFO - Running <TaskInstance: tpm1_workflow.run_capture manual__2023-11-28T22:19:00.359451+00:00 [running]> on host data-engineer
+[2023-11-28T19:19:07.118-0300] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='tpm1_workflow' AIRFLOW_CTX_TASK_ID='run_capture' AIRFLOW_CTX_EXECUTION_DATE='2023-11-28T22:19:00.359451+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-28T22:19:00.359451+00:00'
+[2023-11-28T19:19:07.131-0300] {execute.py:84} INFO - Input Notebook:  /home/marcos/airflow/notebooks/capture.ipynb
+[2023-11-28T19:19:07.131-0300] {execute.py:85} INFO - Output Notebook: /home/marcos/airflow/notebooks/capture_output.ipynb
+[2023-11-28T19:19:09.659-0300] {clientwrap.py:44} INFO - Executing notebook with kernel: python3
+[2023-11-28T19:19:11.547-0300] {logging_mixin.py:154} WARNING - /home/marcos/anaconda3/envs/XPe-IGTI/lib/python3.8/site-packages/airflow/models/baseoperator.py:1471 RemovedInAirflow3Warning: Passing 'execution_date' to 'TaskInstance.xcom_push()' is deprecated.
+[2023-11-28T19:19:11.588-0300] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=tpm1_workflow, task_id=run_capture, execution_date=20231128T221900, start_date=20231128T221906, end_date=20231128T221911
+[2023-11-28T19:19:11.641-0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-28T19:19:11.678-0300] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
